@@ -1,0 +1,33 @@
+name: PotaKu
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  camera: ^0.10.5+9
+  flutter_launcher_icons: ^0.14.3
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icon/PotaKu.png
+    - assets/data/disease.json
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/PotaKu.png"

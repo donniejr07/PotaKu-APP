@@ -1,0 +1,50 @@
+# Local configuration files
+android/local.properties
+android/key.properties
+ios/Flutter/flutter_export_environment.sh
+
+# Generated files
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Keystore files (PENTING untuk keamanan)
+*.jks
+*.keystore
+*.p12
+*.key
+*.mobileprovision
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Firebase config (jika menggunakan Firebase)
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Gradle cache (Android)
+.gradle/
+android/.gradle/
+
+# APK files (opsional - tergantung apakah mau commit APK atau tidak)
+*.apk
+*.aab
+*.ipa
