@@ -25,8 +25,12 @@ PotaKu adalah aplikasi mobile berbasis Flutter yang memungkinkan petani dan peci
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Framework**: Flutter 3.7.0+
-- **Language**: Dart
+- **Framework**: 
+  - Flutter
+  - Flask
+- **Language**: 
+  - Python
+  - Dart
 - **AI/ML**: TensorFlow Lite (melalui API)
 - **Camera**: Camera Plugin
 - **Image Processing**: Image Picker
@@ -71,9 +75,9 @@ dependencies:
 
 ## 🔬 Model AI
 
-Aplikasi ini menggunakan model machine learning yang di-deploy di:
-- **API Endpoint**: `https://potaku-api.up.railway.app/predict`
+Aplikasi ini menggunakan model machine learning:
 - **Model**: Convolutional Neural Network (CNN)
+- **Arsitektur**: MobileNetV2
 - **Akurasi**: ~95% untuk deteksi penyakit kentang
 - **Input**: Gambar RGB 224x224 pixels
 - **Output**: Klasifikasi + confidence score
