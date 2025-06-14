@@ -1,4 +1,4 @@
-# PotaKu - Aplikasi Deteksi Penyakit Kentang 🥔
+# PotaKu - Aplikasi Deteksi Penyakit Daun Kentang 🥔
 
 <div align="center">
   <img src="assets/icon/potaku.png" alt="PotaKu Logo" width="120" height="120">
