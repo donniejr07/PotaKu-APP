@@ -1,0 +1,20 @@
+{
+  "Potato___Early_blight": {
+    "name": "Early Blight (Bercak Daun Awal)",
+    "causes": "Disebabkan oleh jamur Alternaria solani yang berkembang dalam kondisi hangat dan lembab. Jamur ini dapat bertahan hidup di sisa-sisa tanaman yang terinfeksi dan menyebar melalui angin, air, atau kontak langsung.",
+    "symptoms": "Bercak coklat kehitaman berbentuk bulat dengan lingkaran konsentris (target spot) pada daun. Bercak dimulai dari daun bagian bawah dan menyebar ke atas. Daun yang terinfeksi akan menguning dan rontok. Pada umbi, muncul bercak coklat gelap yang cekung.",
+    "treatment": "Aplikasi fungisida berbahan aktif mankozeb atau klorotalonil. Perbaiki drainase dan sirkulasi udara. Rotasi tanaman dengan tanaman non-solanaceae. Buang dan musnahkan bagian tanaman yang terinfeksi. Hindari penyiraman dari atas yang dapat menyebarkan spora."
+  },
+  "Potato___Late_blight": {
+    "name": "Late Blight (Busuk Daun)",
+    "causes": "Disebabkan oleh jamur Phytophthora infestans yang berkembang pesat dalam kondisi dingin dan lembab. Penyakit ini sangat menular dan dapat menyebar dengan cepat melalui angin dan percikan air hujan.",
+    "symptoms": "Bercak coklat gelap atau kehitaman pada daun yang cepat meluas. Pada kondisi lembab, tampak lapisan putih seperti kapas di bagian bawah daun. Batang dan tangkai daun juga dapat terinfeksi. Umbi yang terinfeksi menunjukkan bercak coklat kemerahan yang keras.",
+    "treatment": "Aplikasi fungisida sistemik seperti metalaksil atau dimethomorph secara preventif. Pastikan drainase yang baik dan hindari kelembaban berlebih. Tanam varietas tahan penyakit. Musnahkan tanaman yang terinfeksi segera. Hindari penanaman saat musim hujan berkepanjangan."
+  },
+  "Potato___healthy": {
+    "name": "Kentang Sehat",
+    "causes": "Kondisi pertumbuhan optimal dengan nutrisi seimbang, drainase baik, dan bebas dari patogen. Pengelolaan budidaya yang tepat termasuk pemilihan bibit berkualitas dan praktik sanitasi yang baik.",
+    "symptoms": "Daun berwarna hijau segar dan seragam tanpa bercak atau perubahan warna. Pertumbuhan tanaman normal dan vigor. Tidak ada tanda-tanda layu, klorosis, atau nekrosis. Umbi berkembang dengan baik dan bebas dari cacat.",
+    "treatment": "Lanjutkan praktik budidaya yang baik: pemupukan seimbang, penyiraman teratur, pengendalian gulma, dan monitoring rutin. Terapkan rotasi tanaman dan sanitasi kebun. Gunakan bibit bersertifikat dan lakukan pencegahan hama penyakit secara terpadu."
+  }
+}

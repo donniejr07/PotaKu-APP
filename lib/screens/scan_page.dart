@@ -68,9 +68,15 @@ class _ScanPageState extends State<ScanPage> with TickerProviderStateMixin {
           ],
         ),
       ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+      child: SafeArea(
+        child: SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: MediaQuery.of(context).size.height - MediaQuery.of(context).padding.top - MediaQuery.of(context).padding.bottom,
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
           AnimatedBuilder(
             animation: _animationController,
             builder: (context, child) {
@@ -79,7 +85,7 @@ class _ScanPageState extends State<ScanPage> with TickerProviderStateMixin {
                 child: ScaleTransition(
                   scale: _scaleAnimation,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 16.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
                     child: Card(
                       elevation: 8,
                       shadowColor: Theme.of(context).primaryColor.withOpacity(0.3),
@@ -199,14 +205,14 @@ class _ScanPageState extends State<ScanPage> with TickerProviderStateMixin {
               );
             },
           ),
-          const Expanded(child: SizedBox()),
+          const SizedBox(height: 20),
           AnimatedBuilder(
             animation: _animationController,
             builder: (context, child) {
               return FadeTransition(
                 opacity: _fadeAnimation,
                 child: Padding(
-                  padding: const EdgeInsets.only(bottom: 40.0),
+                  padding: const EdgeInsets.only(bottom: 20.0),
                   child: Column(
                     children: [
                       Container(
@@ -237,7 +243,10 @@ class _ScanPageState extends State<ScanPage> with TickerProviderStateMixin {
               );
             },
           ),
-        ],
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

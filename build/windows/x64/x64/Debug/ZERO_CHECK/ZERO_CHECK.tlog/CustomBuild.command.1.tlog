@@ -1,0 +1,10 @@
+^X:\FLUTTERR\PROJECT\POTAAKUU\BUILD\WINDOWS\X64\CMAKEFILES\541E2C54933CC803F4D543E0626607F6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SX:/flutterr/project/potaakuu/windows -BX:/flutterr/project/potaakuu/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/flutterr/project/potaakuu/build/windows/x64/PotaKu.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

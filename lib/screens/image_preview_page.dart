@@ -40,7 +40,7 @@ class _ImagePreviewPageState extends State<ImagePreviewPage> {
     });
     
     try {
-      final uri = Uri.parse('https://potaku-api.up.railway.app/predict');
+      final uri = Uri.parse('https://potaku.up.railway.app/predict');
       var request = http.MultipartRequest('POST', uri);
       request.files.add(
         await http.MultipartFile.fromPath('file', widget.imageFile.path),

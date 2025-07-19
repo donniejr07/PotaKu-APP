@@ -1,6 +1,6 @@
-Marking string:androidx_startup:2131427328 reachable: referenced from X:\flutterr\project\potaakuu\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_window_insets_animation_callback:2131165266 reachable: referenced from X:\flutterr\project\potaakuu\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_on_apply_window_listener:2131165258 reachable: referenced from X:\flutterr\project\potaakuu\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:androidx_startup:2131427328 reachable: referenced from base/dex/classes.dex
+Marking id:tag_window_insets_animation_callback:2131165266 reachable: referenced from base/dex/classes.dex
+Marking id:tag_on_apply_window_listener:2131165258 reachable: referenced from base/dex/classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
@@ -1390,264 +1390,264 @@ Marking id:text:2131165267 used because it matches string pool constant text
 Marking id:text2:2131165268 used because it matches string pool constant text
 Marking attr:activityAction:2130903040 used because it matches string pool constant activity
 Marking attr:activityName:2130903041 used because it matches string pool constant activity
-@anim/fragment_fast_out_extra_slow_in : reachable=false
-@animator/fragment_close_enter : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@animator/fragment_close_exit : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@animator/fragment_fade_enter : reachable=false
-@animator/fragment_fade_exit : reachable=false
-@animator/fragment_open_enter : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@animator/fragment_open_exit : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@attr/activityAction : reachable=true
-@attr/activityName : reachable=true
-@attr/alpha : reachable=false
-@attr/alwaysExpand : reachable=false
-@attr/animationBackgroundColor : reachable=false
-@attr/clearTop : reachable=false
-@attr/finishPrimaryWithPlaceholder : reachable=false
-@attr/finishPrimaryWithSecondary : reachable=false
-@attr/finishSecondaryWithPrimary : reachable=false
-@attr/font : reachable=false
-@attr/fontProviderAuthority : reachable=false
-@attr/fontProviderCerts : reachable=false
-@attr/fontProviderFetchStrategy : reachable=false
-@attr/fontProviderFetchTimeout : reachable=false
-@attr/fontProviderPackage : reachable=false
-@attr/fontProviderQuery : reachable=false
-@attr/fontProviderSystemFontFamily : reachable=false
-@attr/fontStyle : reachable=false
-@attr/fontVariationSettings : reachable=false
-@attr/fontWeight : reachable=false
-@attr/lStar : reachable=false
-@attr/nestedScrollViewStyle : reachable=false
-@attr/placeholderActivityName : reachable=false
-@attr/primaryActivityName : reachable=false
-@attr/queryPatterns : reachable=false
-@attr/secondaryActivityAction : reachable=false
-@attr/secondaryActivityName : reachable=false
-@attr/shortcutMatchRequired : reachable=true
-@attr/splitLayoutDirection : reachable=false
-@attr/splitMaxAspectRatioInLandscape : reachable=false
-@attr/splitMaxAspectRatioInPortrait : reachable=false
-@attr/splitMinHeightDp : reachable=false
-@attr/splitMinSmallestWidthDp : reachable=false
-@attr/splitMinWidthDp : reachable=false
-@attr/splitRatio : reachable=false
-@attr/stickyPlaceholder : reachable=false
-@attr/tag : reachable=false
-@attr/ttcIndex : reachable=false
-@color/androidx_core_ripple_material_light : reachable=true
-@color/androidx_core_secondary_text_default_material_light : reachable=true
-@color/call_notification_answer_color : reachable=false
-@color/call_notification_decline_color : reachable=false
-@color/notification_action_color_filter : reachable=true
-    @color/androidx_core_secondary_text_default_material_light
-@color/notification_icon_bg_color : reachable=true
-@dimen/compat_button_inset_horizontal_material : reachable=false
-@dimen/compat_button_inset_vertical_material : reachable=false
-@dimen/compat_button_padding_horizontal_material : reachable=false
-@dimen/compat_button_padding_vertical_material : reachable=false
-@dimen/compat_control_corner_material : reachable=false
-@dimen/compat_notification_large_icon_max_height : reachable=false
-@dimen/compat_notification_large_icon_max_width : reachable=false
-@dimen/notification_action_icon_size : reachable=true
-@dimen/notification_action_text_size : reachable=true
-@dimen/notification_big_circle_margin : reachable=true
-@dimen/notification_content_margin_start : reachable=true
-@dimen/notification_large_icon_height : reachable=true
-@dimen/notification_large_icon_width : reachable=true
-@dimen/notification_main_column_padding_top : reachable=true
-@dimen/notification_media_narrow_margin : reachable=true
-@dimen/notification_right_icon_size : reachable=true
-@dimen/notification_right_side_padding_top : reachable=true
-@dimen/notification_small_icon_background_padding : reachable=true
-@dimen/notification_small_icon_size_as_large : reachable=true
-@dimen/notification_subtext_size : reachable=true
-@dimen/notification_top_pad : reachable=true
-@dimen/notification_top_pad_large_text : reachable=true
-@drawable/ic_call_answer : reachable=false
-@drawable/ic_call_answer_low : reachable=false
-@drawable/ic_call_answer_video : reachable=false
-@drawable/ic_call_answer_video_low : reachable=false
-@drawable/ic_call_decline : reachable=false
-@drawable/ic_call_decline_low : reachable=false
-@drawable/launch_background : reachable=false
-@drawable/notification_action_background : reachable=true
-    @color/androidx_core_ripple_material_light
-    @dimen/compat_button_inset_horizontal_material
-    @dimen/compat_button_inset_vertical_material
-    @dimen/compat_control_corner_material
-    @dimen/compat_button_padding_horizontal_material
-    @dimen/compat_button_padding_vertical_material
-@drawable/notification_bg : reachable=true
-    @drawable/notification_bg_normal_pressed
-    @drawable/notification_bg_normal
-@drawable/notification_bg_low : reachable=true
-    @drawable/notification_bg_low_pressed
-    @drawable/notification_bg_low_normal
-@drawable/notification_bg_low_normal : reachable=true
-@drawable/notification_bg_low_pressed : reachable=true
-@drawable/notification_bg_normal : reachable=true
-@drawable/notification_bg_normal_pressed : reachable=true
-@drawable/notification_icon_background : reachable=true
-    @color/notification_icon_bg_color
-@drawable/notification_oversize_large_icon_bg : reachable=true
-@drawable/notification_template_icon_bg : reachable=true
-@drawable/notification_template_icon_low_bg : reachable=true
-@drawable/notification_tile_bg : reachable=true
-    @drawable/notify_panel_notification_icon_bg
-@drawable/notify_panel_notification_icon_bg : reachable=false
-@id/accessibility_action_clickable_span : reachable=true
-@id/accessibility_custom_action_0 : reachable=true
-@id/accessibility_custom_action_1 : reachable=true
-@id/accessibility_custom_action_10 : reachable=true
-@id/accessibility_custom_action_11 : reachable=true
-@id/accessibility_custom_action_12 : reachable=true
-@id/accessibility_custom_action_13 : reachable=true
-@id/accessibility_custom_action_14 : reachable=true
-@id/accessibility_custom_action_15 : reachable=true
-@id/accessibility_custom_action_16 : reachable=true
-@id/accessibility_custom_action_17 : reachable=true
-@id/accessibility_custom_action_18 : reachable=true
-@id/accessibility_custom_action_19 : reachable=true
-@id/accessibility_custom_action_2 : reachable=true
-@id/accessibility_custom_action_20 : reachable=true
-@id/accessibility_custom_action_21 : reachable=true
-@id/accessibility_custom_action_22 : reachable=true
-@id/accessibility_custom_action_23 : reachable=true
-@id/accessibility_custom_action_24 : reachable=true
-@id/accessibility_custom_action_25 : reachable=true
-@id/accessibility_custom_action_26 : reachable=true
-@id/accessibility_custom_action_27 : reachable=true
-@id/accessibility_custom_action_28 : reachable=true
-@id/accessibility_custom_action_29 : reachable=true
-@id/accessibility_custom_action_3 : reachable=true
-@id/accessibility_custom_action_30 : reachable=true
-@id/accessibility_custom_action_31 : reachable=true
-@id/accessibility_custom_action_4 : reachable=true
-@id/accessibility_custom_action_5 : reachable=true
-@id/accessibility_custom_action_6 : reachable=true
-@id/accessibility_custom_action_7 : reachable=true
-@id/accessibility_custom_action_8 : reachable=true
-@id/accessibility_custom_action_9 : reachable=true
-@id/action_container : reachable=true
-@id/action_divider : reachable=true
-@id/action_image : reachable=true
-@id/action_text : reachable=true
-@id/actions : reachable=true
-@id/adjacent : reachable=false
-@id/always : reachable=false
-@id/alwaysAllow : reachable=false
-@id/alwaysDisallow : reachable=false
-@id/androidx_window_activity_scope : reachable=true
-@id/async : reachable=false
-@id/blocking : reachable=false
-@id/bottomToTop : reachable=false
-@id/chronometer : reachable=false
-@id/dialog_button : reachable=false
-@id/edit_text_id : reachable=false
-@id/forever : reachable=false
-@id/fragment_container_view_tag : reachable=false
-@id/hide_ime_id : reachable=false
-@id/icon : reachable=false
-@id/icon_group : reachable=false
-@id/info : reachable=true
-@id/italic : reachable=false
-@id/line1 : reachable=false
-@id/line3 : reachable=false
-@id/locale : reachable=true
-@id/ltr : reachable=false
-@id/never : reachable=false
-@id/normal : reachable=false
-@id/notification_background : reachable=true
-@id/notification_main_column : reachable=true
-@id/notification_main_column_container : reachable=true
-@id/report_drawn : reachable=false
-@id/right_icon : reachable=false
-@id/right_side : reachable=false
-@id/rtl : reachable=false
-@id/special_effects_controller_view_tag : reachable=false
-@id/tag_accessibility_actions : reachable=false
-@id/tag_accessibility_clickable_spans : reachable=false
-@id/tag_accessibility_heading : reachable=false
-@id/tag_accessibility_pane_title : reachable=false
-@id/tag_on_apply_window_listener : reachable=true
-@id/tag_on_receive_content_listener : reachable=false
-@id/tag_on_receive_content_mime_types : reachable=false
-@id/tag_screen_reader_focusable : reachable=false
-@id/tag_state_description : reachable=false
-@id/tag_transition_group : reachable=false
-@id/tag_unhandled_key_event_manager : reachable=false
-@id/tag_unhandled_key_listeners : reachable=false
-@id/tag_window_insets_animation_callback : reachable=true
-@id/text : reachable=true
-@id/text2 : reachable=true
-@id/time : reachable=false
-@id/title : reachable=false
-@id/topToBottom : reachable=true
-@id/view_tree_lifecycle_owner : reachable=true
-@id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
-@id/view_tree_saved_state_registry_owner : reachable=true
-@id/view_tree_view_model_store_owner : reachable=true
-@id/visible_removing_fragment_view_tag : reachable=false
-@integer/status_bar_notification_info_maxnum : reachable=false
-@layout/custom_dialog : reachable=false
-@layout/ime_base_split_test_activity : reachable=false
-@layout/ime_secondary_split_test_activity : reachable=false
-@layout/notification_action : reachable=true
-    @style/Widget_Compat_NotificationActionContainer
-    @dimen/notification_action_icon_size
-    @style/Widget_Compat_NotificationActionText
-@layout/notification_action_tombstone : reachable=true
-    @style/Widget_Compat_NotificationActionContainer
-    @dimen/notification_action_icon_size
-    @style/Widget_Compat_NotificationActionText
-@layout/notification_template_custom_big : reachable=true
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @layout/notification_template_icon_group
-    @dimen/notification_right_side_padding_top
-    @layout/notification_template_part_time
-    @layout/notification_template_part_chronometer
-    @style/TextAppearance_Compat_Notification_Info
-@layout/notification_template_icon_group : reachable=true
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @dimen/notification_big_circle_margin
-    @dimen/notification_right_icon_size
-@layout/notification_template_part_chronometer : reachable=true
-    @style/TextAppearance_Compat_Notification_Time
-@layout/notification_template_part_time : reachable=true
-    @style/TextAppearance_Compat_Notification_Time
-@mipmap/ic_launcher : reachable=false
-@mipmap/launcher_icon : reachable=true
-@string/androidx_startup : reachable=true
-@string/call_notification_answer_action : reachable=false
-@string/call_notification_answer_video_action : reachable=false
-@string/call_notification_decline_action : reachable=false
-@string/call_notification_hang_up_action : reachable=false
-@string/call_notification_incoming_text : reachable=false
-@string/call_notification_ongoing_text : reachable=false
-@string/call_notification_screening_text : reachable=false
-@string/status_bar_notification_info_overflow : reachable=false
-@style/LaunchTheme : reachable=true
-    @drawable/launch_background
-@style/NormalTheme : reachable=true
-@style/TextAppearance_Compat_Notification : reachable=false
-@style/TextAppearance_Compat_Notification_Info : reachable=false
-@style/TextAppearance_Compat_Notification_Line2 : reachable=false
-    @style/TextAppearance_Compat_Notification_Info
-@style/TextAppearance_Compat_Notification_Time : reachable=false
-@style/TextAppearance_Compat_Notification_Title : reachable=false
-@style/Widget_Compat_NotificationActionContainer : reachable=false
-    @drawable/notification_action_background
-@style/Widget_Compat_NotificationActionText : reachable=false
-    @dimen/notification_action_text_size
-    @color/androidx_core_secondary_text_default_material_light
-@xml/flutter_image_picker_file_paths : reachable=true
+@com.example.PotaKu:anim/fragment_fast_out_extra_slow_in : reachable=false
+@com.example.PotaKu:animator/fragment_close_enter : reachable=false
+    @com.example.PotaKu:anim/fragment_fast_out_extra_slow_in
+@com.example.PotaKu:animator/fragment_close_exit : reachable=false
+    @com.example.PotaKu:anim/fragment_fast_out_extra_slow_in
+@com.example.PotaKu:animator/fragment_fade_enter : reachable=false
+@com.example.PotaKu:animator/fragment_fade_exit : reachable=false
+@com.example.PotaKu:animator/fragment_open_enter : reachable=false
+    @com.example.PotaKu:anim/fragment_fast_out_extra_slow_in
+@com.example.PotaKu:animator/fragment_open_exit : reachable=false
+    @com.example.PotaKu:anim/fragment_fast_out_extra_slow_in
+@com.example.PotaKu:attr/activityAction : reachable=true
+@com.example.PotaKu:attr/activityName : reachable=true
+@com.example.PotaKu:attr/alpha : reachable=false
+@com.example.PotaKu:attr/alwaysExpand : reachable=false
+@com.example.PotaKu:attr/animationBackgroundColor : reachable=false
+@com.example.PotaKu:attr/clearTop : reachable=false
+@com.example.PotaKu:attr/finishPrimaryWithPlaceholder : reachable=false
+@com.example.PotaKu:attr/finishPrimaryWithSecondary : reachable=false
+@com.example.PotaKu:attr/finishSecondaryWithPrimary : reachable=false
+@com.example.PotaKu:attr/font : reachable=false
+@com.example.PotaKu:attr/fontProviderAuthority : reachable=false
+@com.example.PotaKu:attr/fontProviderCerts : reachable=false
+@com.example.PotaKu:attr/fontProviderFetchStrategy : reachable=false
+@com.example.PotaKu:attr/fontProviderFetchTimeout : reachable=false
+@com.example.PotaKu:attr/fontProviderPackage : reachable=false
+@com.example.PotaKu:attr/fontProviderQuery : reachable=false
+@com.example.PotaKu:attr/fontProviderSystemFontFamily : reachable=false
+@com.example.PotaKu:attr/fontStyle : reachable=false
+@com.example.PotaKu:attr/fontVariationSettings : reachable=false
+@com.example.PotaKu:attr/fontWeight : reachable=false
+@com.example.PotaKu:attr/lStar : reachable=false
+@com.example.PotaKu:attr/nestedScrollViewStyle : reachable=false
+@com.example.PotaKu:attr/placeholderActivityName : reachable=false
+@com.example.PotaKu:attr/primaryActivityName : reachable=false
+@com.example.PotaKu:attr/queryPatterns : reachable=false
+@com.example.PotaKu:attr/secondaryActivityAction : reachable=false
+@com.example.PotaKu:attr/secondaryActivityName : reachable=false
+@com.example.PotaKu:attr/shortcutMatchRequired : reachable=true
+@com.example.PotaKu:attr/splitLayoutDirection : reachable=false
+@com.example.PotaKu:attr/splitMaxAspectRatioInLandscape : reachable=false
+@com.example.PotaKu:attr/splitMaxAspectRatioInPortrait : reachable=false
+@com.example.PotaKu:attr/splitMinHeightDp : reachable=false
+@com.example.PotaKu:attr/splitMinSmallestWidthDp : reachable=false
+@com.example.PotaKu:attr/splitMinWidthDp : reachable=false
+@com.example.PotaKu:attr/splitRatio : reachable=false
+@com.example.PotaKu:attr/stickyPlaceholder : reachable=false
+@com.example.PotaKu:attr/tag : reachable=false
+@com.example.PotaKu:attr/ttcIndex : reachable=false
+@com.example.PotaKu:color/androidx_core_ripple_material_light : reachable=true
+@com.example.PotaKu:color/androidx_core_secondary_text_default_material_light : reachable=true
+@com.example.PotaKu:color/call_notification_answer_color : reachable=false
+@com.example.PotaKu:color/call_notification_decline_color : reachable=false
+@com.example.PotaKu:color/notification_action_color_filter : reachable=true
+    @com.example.PotaKu:color/androidx_core_secondary_text_default_material_light
+@com.example.PotaKu:color/notification_icon_bg_color : reachable=true
+@com.example.PotaKu:dimen/compat_button_inset_horizontal_material : reachable=false
+@com.example.PotaKu:dimen/compat_button_inset_vertical_material : reachable=false
+@com.example.PotaKu:dimen/compat_button_padding_horizontal_material : reachable=false
+@com.example.PotaKu:dimen/compat_button_padding_vertical_material : reachable=false
+@com.example.PotaKu:dimen/compat_control_corner_material : reachable=false
+@com.example.PotaKu:dimen/compat_notification_large_icon_max_height : reachable=false
+@com.example.PotaKu:dimen/compat_notification_large_icon_max_width : reachable=false
+@com.example.PotaKu:dimen/notification_action_icon_size : reachable=true
+@com.example.PotaKu:dimen/notification_action_text_size : reachable=true
+@com.example.PotaKu:dimen/notification_big_circle_margin : reachable=true
+@com.example.PotaKu:dimen/notification_content_margin_start : reachable=true
+@com.example.PotaKu:dimen/notification_large_icon_height : reachable=true
+@com.example.PotaKu:dimen/notification_large_icon_width : reachable=true
+@com.example.PotaKu:dimen/notification_main_column_padding_top : reachable=true
+@com.example.PotaKu:dimen/notification_media_narrow_margin : reachable=true
+@com.example.PotaKu:dimen/notification_right_icon_size : reachable=true
+@com.example.PotaKu:dimen/notification_right_side_padding_top : reachable=true
+@com.example.PotaKu:dimen/notification_small_icon_background_padding : reachable=true
+@com.example.PotaKu:dimen/notification_small_icon_size_as_large : reachable=true
+@com.example.PotaKu:dimen/notification_subtext_size : reachable=true
+@com.example.PotaKu:dimen/notification_top_pad : reachable=true
+@com.example.PotaKu:dimen/notification_top_pad_large_text : reachable=true
+@com.example.PotaKu:drawable/ic_call_answer : reachable=false
+@com.example.PotaKu:drawable/ic_call_answer_low : reachable=false
+@com.example.PotaKu:drawable/ic_call_answer_video : reachable=false
+@com.example.PotaKu:drawable/ic_call_answer_video_low : reachable=false
+@com.example.PotaKu:drawable/ic_call_decline : reachable=false
+@com.example.PotaKu:drawable/ic_call_decline_low : reachable=false
+@com.example.PotaKu:drawable/launch_background : reachable=false
+@com.example.PotaKu:drawable/notification_action_background : reachable=true
+    @com.example.PotaKu:color/androidx_core_ripple_material_light
+    @com.example.PotaKu:dimen/compat_button_inset_horizontal_material
+    @com.example.PotaKu:dimen/compat_button_inset_vertical_material
+    @com.example.PotaKu:dimen/compat_control_corner_material
+    @com.example.PotaKu:dimen/compat_button_padding_vertical_material
+    @com.example.PotaKu:dimen/compat_button_padding_horizontal_material
+@com.example.PotaKu:drawable/notification_bg : reachable=true
+    @com.example.PotaKu:drawable/notification_bg_normal_pressed
+    @com.example.PotaKu:drawable/notification_bg_normal
+@com.example.PotaKu:drawable/notification_bg_low : reachable=true
+    @com.example.PotaKu:drawable/notification_bg_low_pressed
+    @com.example.PotaKu:drawable/notification_bg_low_normal
+@com.example.PotaKu:drawable/notification_bg_low_normal : reachable=true
+@com.example.PotaKu:drawable/notification_bg_low_pressed : reachable=true
+@com.example.PotaKu:drawable/notification_bg_normal : reachable=true
+@com.example.PotaKu:drawable/notification_bg_normal_pressed : reachable=true
+@com.example.PotaKu:drawable/notification_icon_background : reachable=true
+    @com.example.PotaKu:color/notification_icon_bg_color
+@com.example.PotaKu:drawable/notification_oversize_large_icon_bg : reachable=true
+@com.example.PotaKu:drawable/notification_template_icon_bg : reachable=true
+@com.example.PotaKu:drawable/notification_template_icon_low_bg : reachable=true
+@com.example.PotaKu:drawable/notification_tile_bg : reachable=true
+    @com.example.PotaKu:drawable/notify_panel_notification_icon_bg
+@com.example.PotaKu:drawable/notify_panel_notification_icon_bg : reachable=false
+@com.example.PotaKu:id/accessibility_action_clickable_span : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_0 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_1 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_10 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_11 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_12 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_13 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_14 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_15 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_16 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_17 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_18 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_19 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_2 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_20 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_21 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_22 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_23 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_24 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_25 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_26 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_27 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_28 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_29 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_3 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_30 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_31 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_4 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_5 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_6 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_7 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_8 : reachable=true
+@com.example.PotaKu:id/accessibility_custom_action_9 : reachable=true
+@com.example.PotaKu:id/action_container : reachable=true
+@com.example.PotaKu:id/action_divider : reachable=true
+@com.example.PotaKu:id/action_image : reachable=true
+@com.example.PotaKu:id/action_text : reachable=true
+@com.example.PotaKu:id/actions : reachable=true
+@com.example.PotaKu:id/adjacent : reachable=false
+@com.example.PotaKu:id/always : reachable=false
+@com.example.PotaKu:id/alwaysAllow : reachable=false
+@com.example.PotaKu:id/alwaysDisallow : reachable=false
+@com.example.PotaKu:id/androidx_window_activity_scope : reachable=true
+@com.example.PotaKu:id/async : reachable=false
+@com.example.PotaKu:id/blocking : reachable=false
+@com.example.PotaKu:id/bottomToTop : reachable=false
+@com.example.PotaKu:id/chronometer : reachable=false
+@com.example.PotaKu:id/dialog_button : reachable=false
+@com.example.PotaKu:id/edit_text_id : reachable=false
+@com.example.PotaKu:id/forever : reachable=false
+@com.example.PotaKu:id/fragment_container_view_tag : reachable=false
+@com.example.PotaKu:id/hide_ime_id : reachable=false
+@com.example.PotaKu:id/icon : reachable=false
+@com.example.PotaKu:id/icon_group : reachable=false
+@com.example.PotaKu:id/info : reachable=true
+@com.example.PotaKu:id/italic : reachable=false
+@com.example.PotaKu:id/line1 : reachable=false
+@com.example.PotaKu:id/line3 : reachable=false
+@com.example.PotaKu:id/locale : reachable=true
+@com.example.PotaKu:id/ltr : reachable=false
+@com.example.PotaKu:id/never : reachable=false
+@com.example.PotaKu:id/normal : reachable=false
+@com.example.PotaKu:id/notification_background : reachable=true
+@com.example.PotaKu:id/notification_main_column : reachable=true
+@com.example.PotaKu:id/notification_main_column_container : reachable=true
+@com.example.PotaKu:id/report_drawn : reachable=false
+@com.example.PotaKu:id/right_icon : reachable=false
+@com.example.PotaKu:id/right_side : reachable=false
+@com.example.PotaKu:id/rtl : reachable=false
+@com.example.PotaKu:id/special_effects_controller_view_tag : reachable=false
+@com.example.PotaKu:id/tag_accessibility_actions : reachable=false
+@com.example.PotaKu:id/tag_accessibility_clickable_spans : reachable=false
+@com.example.PotaKu:id/tag_accessibility_heading : reachable=false
+@com.example.PotaKu:id/tag_accessibility_pane_title : reachable=false
+@com.example.PotaKu:id/tag_on_apply_window_listener : reachable=true
+@com.example.PotaKu:id/tag_on_receive_content_listener : reachable=false
+@com.example.PotaKu:id/tag_on_receive_content_mime_types : reachable=false
+@com.example.PotaKu:id/tag_screen_reader_focusable : reachable=false
+@com.example.PotaKu:id/tag_state_description : reachable=false
+@com.example.PotaKu:id/tag_transition_group : reachable=false
+@com.example.PotaKu:id/tag_unhandled_key_event_manager : reachable=false
+@com.example.PotaKu:id/tag_unhandled_key_listeners : reachable=false
+@com.example.PotaKu:id/tag_window_insets_animation_callback : reachable=true
+@com.example.PotaKu:id/text : reachable=true
+@com.example.PotaKu:id/text2 : reachable=true
+@com.example.PotaKu:id/time : reachable=false
+@com.example.PotaKu:id/title : reachable=false
+@com.example.PotaKu:id/topToBottom : reachable=true
+@com.example.PotaKu:id/view_tree_lifecycle_owner : reachable=true
+@com.example.PotaKu:id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
+@com.example.PotaKu:id/view_tree_saved_state_registry_owner : reachable=true
+@com.example.PotaKu:id/view_tree_view_model_store_owner : reachable=true
+@com.example.PotaKu:id/visible_removing_fragment_view_tag : reachable=false
+@com.example.PotaKu:integer/status_bar_notification_info_maxnum : reachable=false
+@com.example.PotaKu:layout/custom_dialog : reachable=false
+@com.example.PotaKu:layout/ime_base_split_test_activity : reachable=false
+@com.example.PotaKu:layout/ime_secondary_split_test_activity : reachable=false
+@com.example.PotaKu:layout/notification_action : reachable=true
+    @com.example.PotaKu:style/Widget_Compat_NotificationActionContainer
+    @com.example.PotaKu:dimen/notification_action_icon_size
+    @com.example.PotaKu:style/Widget_Compat_NotificationActionText
+@com.example.PotaKu:layout/notification_action_tombstone : reachable=true
+    @com.example.PotaKu:style/Widget_Compat_NotificationActionContainer
+    @com.example.PotaKu:dimen/notification_action_icon_size
+    @com.example.PotaKu:style/Widget_Compat_NotificationActionText
+@com.example.PotaKu:layout/notification_template_custom_big : reachable=true
+    @com.example.PotaKu:layout/notification_template_icon_group
+    @com.example.PotaKu:dimen/notification_large_icon_width
+    @com.example.PotaKu:dimen/notification_large_icon_height
+    @com.example.PotaKu:dimen/notification_right_side_padding_top
+    @com.example.PotaKu:layout/notification_template_part_time
+    @com.example.PotaKu:layout/notification_template_part_chronometer
+    @com.example.PotaKu:style/TextAppearance_Compat_Notification_Info
+@com.example.PotaKu:layout/notification_template_icon_group : reachable=true
+    @com.example.PotaKu:dimen/notification_large_icon_width
+    @com.example.PotaKu:dimen/notification_large_icon_height
+    @com.example.PotaKu:dimen/notification_big_circle_margin
+    @com.example.PotaKu:dimen/notification_right_icon_size
+@com.example.PotaKu:layout/notification_template_part_chronometer : reachable=true
+    @com.example.PotaKu:style/TextAppearance_Compat_Notification_Time
+@com.example.PotaKu:layout/notification_template_part_time : reachable=true
+    @com.example.PotaKu:style/TextAppearance_Compat_Notification_Time
+@com.example.PotaKu:mipmap/ic_launcher : reachable=false
+@com.example.PotaKu:mipmap/launcher_icon : reachable=true
+@com.example.PotaKu:string/androidx_startup : reachable=true
+@com.example.PotaKu:string/call_notification_answer_action : reachable=false
+@com.example.PotaKu:string/call_notification_answer_video_action : reachable=false
+@com.example.PotaKu:string/call_notification_decline_action : reachable=false
+@com.example.PotaKu:string/call_notification_hang_up_action : reachable=false
+@com.example.PotaKu:string/call_notification_incoming_text : reachable=false
+@com.example.PotaKu:string/call_notification_ongoing_text : reachable=false
+@com.example.PotaKu:string/call_notification_screening_text : reachable=false
+@com.example.PotaKu:string/status_bar_notification_info_overflow : reachable=false
+@com.example.PotaKu:style/LaunchTheme : reachable=true
+    @com.example.PotaKu:drawable/launch_background
+@com.example.PotaKu:style/NormalTheme : reachable=true
+@com.example.PotaKu:style/TextAppearance_Compat_Notification : reachable=false
+@com.example.PotaKu:style/TextAppearance_Compat_Notification_Info : reachable=false
+@com.example.PotaKu:style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @com.example.PotaKu:style/TextAppearance_Compat_Notification_Info
+@com.example.PotaKu:style/TextAppearance_Compat_Notification_Time : reachable=false
+@com.example.PotaKu:style/TextAppearance_Compat_Notification_Title : reachable=false
+@com.example.PotaKu:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @com.example.PotaKu:drawable/notification_action_background
+@com.example.PotaKu:style/Widget_Compat_NotificationActionText : reachable=false
+    @com.example.PotaKu:color/androidx_core_secondary_text_default_material_light
+    @com.example.PotaKu:dimen/notification_action_text_size
+@com.example.PotaKu:xml/flutter_image_picker_file_paths : reachable=true
 
 The root reachable resources are:
  attr:activityAction:2130903040
