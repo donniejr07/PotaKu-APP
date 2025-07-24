@@ -1,4 +1,4 @@
-package com.example.PotaKu
+package com.donnie.PotaKu
 
 import io.flutter.embedding.android.FlutterActivity
 

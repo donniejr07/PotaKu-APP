@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.PotaKu.app-mergeReleaseResources-24:/values/values.xml",
+            "outputFile": "com.donnie.PotaKu.app-mergeReleaseResources-24:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Acer\\.gradle\\caches\\8.10.2\\transforms\\a70ddd560199940b45ffc1a1c4db7f79\\transformed\\jetified-activity-1.9.3\\res\\values\\values.xml",

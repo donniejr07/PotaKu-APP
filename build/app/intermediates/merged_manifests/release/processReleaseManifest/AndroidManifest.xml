@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.PotaKu"
+    package="com.donnie.PotaKu"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -32,10 +32,10 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <permission
-        android:name="com.example.PotaKu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.donnie.PotaKu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.PotaKu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.donnie.PotaKu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="android.app.Application"
@@ -45,7 +45,7 @@
         android:label="PotaKu"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.PotaKu.MainActivity"
+            android:name="com.donnie.PotaKu.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -80,7 +80,7 @@
 
         <provider
             android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-            android:authorities="com.example.PotaKu.flutter.image_provider"
+            android:authorities="com.donnie.PotaKu.flutter.image_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -109,7 +109,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.PotaKu.androidx-startup"
+            android:authorities="com.donnie.PotaKu.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"

@@ -3,7 +3,7 @@
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.example.PotaKu.MainActivity { <init>(); }
+-keep class com.donnie.PotaKu.MainActivity { <init>(); }
 -keep class com.google.android.gms.metadata.ModuleDependencies { <init>(); }
 -keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
 

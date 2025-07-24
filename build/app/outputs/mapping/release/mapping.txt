@@ -3,8 +3,8 @@
 # min_api: 21
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: a17b839
-# pg_map_hash: SHA-256 a17b8391354cff1ab0690355ae30e730dd68d82a0342cca7318d13c1515fad79
+# pg_map_id: 127c1df
+# pg_map_hash: SHA-256 127c1df907cf0cd73d70e82d2601f1b886eac072ed4d1d7234497608a3bab140
 _COROUTINE.ArtificialStackFrames -> R8$$REMOVED$$CLASS$$0:
 # {"id":"sourceFile","fileName":"CoroutineDebugging.kt"}
 _COROUTINE.CoroutineDebuggingKt -> R8$$REMOVED$$CLASS$$1:
@@ -11304,7 +11304,7 @@ androidx.window.layout.util.DisplayCompatHelperApi28$$ExternalSyntheticApiModelO
       # {"id":"com.android.tools.r8.synthesized"}
     1:1:int D.DisplayCompatHelperApi28$$ExternalSyntheticApiModelOutline0.m$3(android.view.DisplayCutout):0:0 -> z
       # {"id":"com.android.tools.r8.synthesized"}
-com.example.PotaKu.MainActivity -> com.example.PotaKu.MainActivity:
+com.donnie.PotaKu.MainActivity -> com.donnie.PotaKu.MainActivity:
 # {"id":"sourceFile","fileName":"MainActivity.kt"}
     1:4:void <init>():5:5 -> <init>
 com.getkeepsafe.relinker.ApkLibraryInstaller -> F.b:
